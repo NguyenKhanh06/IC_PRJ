@@ -5,7 +5,7 @@ import Programs from './Programs';
 import News from './News';
 import About from './About';
 import Footer from '../../components/footer/Footer';
-import Messenger from '../chat/Messenger';
+
 
 
 home.propTypes = {
@@ -19,7 +19,6 @@ function home(props) {
             <Programs/>
             <News/>
             <About/>
-            <Messenger/>
             <Footer/>
         </>
     );
