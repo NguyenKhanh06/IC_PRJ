@@ -5,7 +5,7 @@ import Programs from './Programs';
 import News from './News';
 import About from './About';
 import Footer from '../../components/footer/Footer';
-import Messenger from '../chat/messenger';
+import Messenger from '../chat/Messenger';
 
 
 home.propTypes = {
