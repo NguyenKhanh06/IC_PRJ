@@ -74,7 +74,7 @@ a:hover {
 }
 
 .navbar-light .navbar-nav .nav-link {
-  color: var(--white-color);
+  color: var(--white-color) !important;
   margin-left: 15px;
 }
 .navbar-light .navbar-nav .nav-link:hover {

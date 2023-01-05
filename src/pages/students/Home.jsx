@@ -15,7 +15,17 @@ home.propTypes = {
 function home(props) {
     return (
         <>
-            <Header/>
+        <Header/>
+        <div className="home-container">
+      <div id="slider">
+        <div className="text-content">
+          <h3 className="text-heading">YOUR GLOBAL JOURNEYSTARTS HERE</h3>
+          <div className="text-description">
+            <button className="btn-app btn--primary_big">Register now</button>
+          </div>
+        </div>
+      </div>
+    </div>
             <Programs/>
             <News/>
             <About/>

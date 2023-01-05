@@ -6,7 +6,8 @@ import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { Button, CardActionArea, CardActions } from '@mui/material';
 import { ColorButton } from '../../styles/button';
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCircleChevronRight } from '@fortawesome/free-solid-svg-icons'
 
 
 function News(props) {
@@ -24,8 +25,12 @@ function News(props) {
             alt="green iguana"
           />
           <CardContent style={{textAlign: 'left'}}>
+          <Typography className='card-title' gutterBottom variant="h5" component="div">
+            Đại học FPT tăng học phí
+            Đại học FPT tăng học phí
+            Đại học FPT tăng học phí
+            </Typography>
             <Typography gutterBottom variant="h5" component="div">
-            English overseas 6
             </Typography>
             <Typography variant="body2" color="text.secondary" className='card-info'>
             This is a longer card with supporting text below as a natural
@@ -34,9 +39,8 @@ function News(props) {
             </Typography>
           </CardContent>
         </CardActionArea>
-        <CardActions>
-        <ColorButton variant="contained" style={{paddingLeft: 30, paddingRight: 30}}>Detail</ColorButton>
-
+        <CardActions> 
+        <Button style={{paddingLeft: 30, paddingRight: 30, color: '#22a19a'}}><FontAwesomeIcon icon={faCircleChevronRight} style={{fontSize: 20, marginRight: 10}} /> Read more</Button>
         </CardActions>
       </Card>
       <Card sx={{ maxWidth: 345, height: 'fit-content' }} >
@@ -49,8 +53,12 @@ function News(props) {
             alt="green iguana"
           />
           <CardContent style={{textAlign: 'left'}}>
+          <Typography className='card-title' gutterBottom variant="h5" component="div">
+            Đại học FPT tăng học phí
+            Đại học FPT tăng học phí
+            Đại học FPT tăng học phí
+            </Typography>
             <Typography gutterBottom variant="h5" component="div">
-            English overseas 6
             </Typography>
             <Typography variant="body2" color="text.secondary" className='card-info'>
             This is a longer card with supporting text below as a natural
@@ -59,9 +67,8 @@ function News(props) {
             </Typography>
           </CardContent>
         </CardActionArea>
-        <CardActions>
-        <ColorButton variant="contained" style={{paddingLeft: 30, paddingRight: 30}}>Detail</ColorButton>
-
+        <CardActions> 
+        <Button style={{paddingLeft: 30, paddingRight: 30, color: '#22a19a'}}><FontAwesomeIcon icon={faCircleChevronRight} style={{fontSize: 20, marginRight: 10}} /> Read more</Button>
         </CardActions>
       </Card>
       <Card sx={{ maxWidth: 345, height: 'fit-content' }} >
@@ -74,8 +81,12 @@ function News(props) {
             alt="green iguana"
           />
           <CardContent style={{textAlign: 'left'}}>
+          <Typography className='card-title' gutterBottom variant="h5" component="div">
+            Đại học FPT tăng học phí
+            Đại học FPT tăng học phí
+            Đại học FPT tăng học phí
+            </Typography>
             <Typography gutterBottom variant="h5" component="div">
-            English overseas 6
             </Typography>
             <Typography variant="body2" color="text.secondary" className='card-info'>
             This is a longer card with supporting text below as a natural
@@ -84,9 +95,8 @@ function News(props) {
             </Typography>
           </CardContent>
         </CardActionArea>
-        <CardActions>
-        <ColorButton variant="contained" style={{paddingLeft: 30, paddingRight: 30}}>Detail</ColorButton>
-
+        <CardActions> 
+        <Button style={{paddingLeft: 30, paddingRight: 30, color: '#22a19a'}}><FontAwesomeIcon icon={faCircleChevronRight} style={{fontSize: 20, marginRight: 10}} /> Read more</Button>
         </CardActions>
       </Card>
       <Card sx={{ maxWidth: 345, height: 'fit-content' }} >
@@ -99,8 +109,12 @@ function News(props) {
             alt="green iguana"
           />
           <CardContent style={{textAlign: 'left'}}>
+          <Typography className='card-title' gutterBottom variant="h5" component="div">
+            Đại học FPT tăng học phí
+            Đại học FPT tăng học phí
+            Đại học FPT tăng học phí
+            </Typography>
             <Typography gutterBottom variant="h5" component="div">
-            English overseas 6
             </Typography>
             <Typography variant="body2" color="text.secondary" className='card-info'>
             This is a longer card with supporting text below as a natural
@@ -109,9 +123,8 @@ function News(props) {
             </Typography>
           </CardContent>
         </CardActionArea>
-        <CardActions>
-        <ColorButton variant="contained" style={{paddingLeft: 30, paddingRight: 30}}>Detail</ColorButton>
-
+        <CardActions> 
+        <Button style={{paddingLeft: 30, paddingRight: 30, color: '#22a19a'}}><FontAwesomeIcon icon={faCircleChevronRight} style={{fontSize: 20, marginRight: 10}} /> Read more</Button>
         </CardActions>
       </Card>
         </div>

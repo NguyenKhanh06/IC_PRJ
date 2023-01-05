@@ -11,7 +11,17 @@
 
   }
     
-  
+  .card-title{
+    display: -webkit-box;
+    max-height: 2.2rem;
+   -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+    -webkit-line-clamp: 1;
+    line-height: 1.6rem;
+
+}
 .card-group{
     display: flex;
     justify-content: space-around;

@@ -24,7 +24,7 @@ function Programs(props) {
             alt="green iguana"
           />
           <CardContent style={{textAlign: 'left'}}>
-            <Typography gutterBottom variant="h5" component="div">
+            <Typography className='card-title' gutterBottom variant="h5" component="div">
             English overseas 6
             </Typography>
             <Typography variant="body2" color="text.secondary" className='card-info'>
@@ -49,7 +49,7 @@ function Programs(props) {
             alt="green iguana"
           />
           <CardContent style={{textAlign: 'left'}}>
-            <Typography gutterBottom variant="h5" component="div">
+            <Typography className='card-title' gutterBottom variant="h5" component="div">
             English overseas 6
             </Typography>
             <Typography variant="body2" color="text.secondary" className='card-info'>
@@ -74,7 +74,7 @@ function Programs(props) {
             alt="green iguana"
           />
           <CardContent style={{textAlign: 'left'}}>
-            <Typography gutterBottom variant="h5" component="div">
+            <Typography className='card-title' gutterBottom variant="h5" component="div">
             English overseas 6
             </Typography>
             <Typography variant="body2" color="text.secondary" className='card-info'>
@@ -99,7 +99,7 @@ function Programs(props) {
             alt="green iguana"
           />
           <CardContent style={{textAlign: 'left'}}>
-            <Typography gutterBottom variant="h5" component="div">
+            <Typography className='card-title' gutterBottom variant="h5" component="div">
             English overseas 6
             </Typography>
             <Typography variant="body2" color="text.secondary" className='card-info'>
